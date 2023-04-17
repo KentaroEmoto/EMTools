@@ -23,6 +23,13 @@ The EMTools consists of several programs useful for geosciences.
 
 ## makeKMZ
 Python class to create a KMZ file to plot colored circle icons in Google Earth by using the lists of longitudes, latitudes and values.
+
+### Requirements
+- Python 3.9.15
+- matplotlib 3.6.3
+- numpy 1.23.5
+- pillow 9.4.0
+
 ### Usage
 Just import `MakeKMZ` and call the `make_kmz` function.
 ```python
