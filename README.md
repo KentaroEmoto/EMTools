@@ -33,7 +33,7 @@
 The EMTools consists of several programs useful for geosciences.
 
 ## makeKMZ
-Python class to create a KMZ file to plot colored circle icons in Google Earth by using the lists of longitudes, latitides and values.
+Python class to create a KMZ file to plot colored circle icons in Google Earth by using the lists of longitudes, latitudes and values.
 ### Usage
 Just import `MakeKMZ` and call the `make_kmz` function.
 ```python
@@ -49,10 +49,10 @@ where
     list_label ([str]): List of labels of icons.
 
 ### Demo
-See `example/earthquakes.py` which create a map of the [20 largest earthquakes](https://www.usgs.gov/programs/earthquake-hazards/science/20-largest-earthquakes-world) listed in the USGS website.
+See `example/earthquakes.py`, which creates a map of the [20 largest earthquakes](https://www.usgs.gov/programs/earthquake-hazards/science/20-largest-earthquakes-world) listed on the USGS website.
 
-The output image is 
-![Product Name Screen Shot][example/earthquakes_google_earth.png]
+The screenshot of the output kmz file opened in Google Earth is 
+![Product Name Screen Shot](example/earthquakes_google_earth.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
