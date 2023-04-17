@@ -1,0 +1,20 @@
+-38.14, -73.41, 9.5, 25, Chile Valdivia Earthquake, 1960-05-22 19:11
+60.91, -147.34, 9.2, 25, 1964 Great Alaska Earthquake, 1964-03-28 03:36
+3.30, 95.98, 9.1, 30, Sumatra-Andaman Islands Earthquake, 2004-12-26 00:58
+38.30, 142.37, 9.1, 29, Tohoku Earthquake, 2011-03-11 05:46
+52.62, 159.78, 9.0, 21.6, Kamchatka Russia, 1952-11-04 16:58
+-36.12, -72.90, 8.8, 22.9, Maule Earthquake, 2010-02-27 06:34
+0.96, -79.37, 8.8, 20, 1906 Ecuador–Colombia Earthquake, 1906-01-31 15:36
+51.25, 178.72, 8.7, 30.3, Rat Islands Earthquake, 1965-02-04 05:01
+28.36, 96.45, 8.6, 15, Assam Tibet, 1950-08-15 14:09
+2.33, 93.06, 8.6, 20, Off the West Coast of Northern Sumatra, 2012-04-11 08:39
+2.09, 97.11, 8.6, 30, Nias Earthquake, 2005-03-28, 16:10
+51.50, -175.63, 8.6, 25, Andrean of Islands Aleutian Islands Alaska, 1957-03-09 14:23
+53.49, 162.83, 8.6, 15, Unimak Island Earthquake, Alaska, 1946-04-01 12:29
+-5.05, 131.61, 8.5, 25, Banda See, 1938-02-01 19:04
+-28.29, -69.85, 8.5, 70, Chile-Argentina Border, 1922-11-11 04:33
+44.87, 149.48, 8.5, 35, Kuril Islands, 1963-10-13 05:18
+54.49, 160.47, 8.4, 15, Kamchatka Russia, 1923-02-03 16:02
+-4.44, 101.37, 8.4, 34, Southern Sumatra Indonesia, 2007-09-12 11:10
+-16.27, -73.64, 8.4, 33, Arequipa Peru Earthquake, 2001-06-23 20:33
+39.21, 144.59, 8.4, 15, Sanriku Japan, 1933-03-02 17:31
