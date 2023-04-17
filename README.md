@@ -29,7 +29,7 @@ Just import `MakeKMZ` and call the `make_kmz` function.
 import makeKMZ
 makeKMZ.make_kmz(kmzname, lon, lat, values, list_label)
 ```
-where
+where parameters are
 
     kmzname (str): Name of the output KMZ file.
     lon ([float]): Array of longitudes.
