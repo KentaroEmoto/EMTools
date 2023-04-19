@@ -6,7 +6,7 @@
     <li>
       <a href="#emtools">EMTools</a>
       <ul>
-        <li><a href="#makekmz">MakeKMZ</a></li>
+        <li><a href="#makekmz">makeKMZ</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -22,7 +22,7 @@
 The EMTools consists of several programs useful for geosciences.
 
 ## makeKMZ
-Python class to create a KMZ file to plot colored circle icons in Google Earth by using the lists of longitudes, latitudes and values.
+Python code to create a KMZ file to plot colored circle icons in Google Earth by using the lists of longitudes, latitudes and values.
 
 ### Requirements
 - Python 3.9.15
