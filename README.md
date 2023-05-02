@@ -7,6 +7,7 @@
       <a href="#emtools">EMTools</a>
       <ul>
         <li><a href="#makekmz">makeKMZ</a></li>
+        <li><a href="#getgsimaps">getGSIMaps</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
