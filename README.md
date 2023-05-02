@@ -53,6 +53,41 @@ The screenshot of the output kmz file opened in Google Earth is
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## getGSIMaps
+Python code to download tile images of [GSI Maps](https://maps.gsi.go.jp). Downloaded image can be used to plot the map by GMT (PyGMT) as the background.
+
+### Requirements
+- Python 3.9.16
+- numpy 1.23.3
+- pillow 9.3.0
+- pygmt 0.8.0 (to run the example code)
+
+### Usage
+Just import `getGSIMaps` and call the `create_image` function.
+```python
+import getGSIMaps
+getGSIMaps.create_image(out_image_name, lon1, lat1, lon2, lat2, zoom = None, map_type = 'std'):
+```
+where parameters are
+
+    out_image_name (str): Output image name
+    lon1 (float): Longitude of the bottom left corner of the region
+    lat1 (float): Latitude of the bottom left corner of the region
+    lon2 (float): Longitude of the top right corner of the region
+    lat2 (float): Latitude of the top right corner of the region
+    zoom (int, optional): Zoom level of the tile. 1:global to 18:local. Defaults to None.
+    map_type (str, optional): Tile ID of the map type. 'std', 'pale', 'english', 'seamlessphoto', and etc. (See https://maps.gsi.go.jp/development/ichiran.html). Defaults to 'std'.
+    
+### Demo
+See `example/plotGSIMaps.py`, which plot a map of Shimabara Penuinsula by PyGMT with the satellite image as the background.
+
+The output image of this demo is 
+|![Output map](example/demo_gsimaps.png)|
+|:--:| 
+| This map is based on the photo published by Geospatial Information Authority of Japan. Data resources: Landsat8 (GSI, TSIC, GEO Grid/AIST), Landsat8 (courtesy fo the U.S. Geological Survey), Bathymetry (GEBCO) |
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LICENSE -->
 ## License
 
