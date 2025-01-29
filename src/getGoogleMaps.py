@@ -18,6 +18,8 @@ def __get_image(x: int, y: int, zoom: int, map_type: str) -> Image.Image:
         Image.Image: tile image
     """
     url_key = 'https://mt1.google.com/vt/lyrs='+map_type
+    if(x >= np.power(2,zoom)):
+        x -= np.power(2,zoom)
     url = url_key + '&x=' + str(x) + '&y=' + str(y) + '&z=' + str(zoom)
     img = Image.open(BytesIO(requests.get(url).content))
     return img

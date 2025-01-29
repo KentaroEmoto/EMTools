@@ -19,6 +19,8 @@ def __get_image(x: int, y: int, zoom: int, map_type: str, extension: str) -> Ima
         Image.Image: tile image
     """
     url_key = 'https://cyberjapandata.gsi.go.jp/xyz/'+map_type+'/'+str(zoom)+'/'
+    if(x >= np.power(2,zoom)):
+        x -= np.power(2,zoom)
     url = url_key + str(x) + '/' + str(y) + '.' + extension
     img = Image.open(BytesIO(requests.get(url).content))
     return img
