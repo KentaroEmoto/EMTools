@@ -195,7 +195,7 @@ def make_kmz(kmzname, lon, lat, values, list_label, colormap_name='jet', n_color
     else:
         dvalue = (vmax-vmin)/n_colors
     color_list = __make_cmap(colormap_name, n_colors)
-    color_index = np.zeros(len(lon), dtype=np.int)
+    color_index = np.zeros(len(lon), dtype=int)
     for i in range(len(lon)):
         if(log_scale):
             index = int((np.log10(values[i])-np.log10(vmin))/dvalue)
